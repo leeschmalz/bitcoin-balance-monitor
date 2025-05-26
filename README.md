@@ -1,1 +1,1 @@
-A simple shell script to monitor bitcoin addresses from a slim Bitcoin Core node. Uses River public address as a frequently changing checkpoint for comparison to public nodes.
+A simple shell script to monitor bitcoin addresses from a slim Bitcoin Core node. Uses River public address, `bc1qysj2w7xsw09datsy9mt9x50jn7qjd6qde6d66qm3ce0a4y9uzdpqcavdr0`, as a frequently changing checkpoint for comparison to public nodes.
