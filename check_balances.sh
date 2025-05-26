@@ -27,5 +27,5 @@ printf "\033[30;1mAddress Balances:\033[0m\n"
 bitcoin-cli -rpcwallet=btc listunspent | jq 'group_by(.address) | map({address: .[0].address, total: map(.amount) | add})'
 printf "\n"
 printf "\033[30;1mTotal Balance:\033[0m\n"
-bitcoin-cli -rpcwallet=btc listunspent | jq '[.[] | select(.address != "bc1qk7fy6qumtdkjy765ujxqxe0my55ake0zefa2dmt6sjx2sr098d8qf26ufn") | .amount] | add'
+bitcoin-cli -rpcwallet=btc listunspent | jq '[.[] | select(.address != "bc1qysj2w7xsw09datsy9mt9x50jn7qjd6qde6d66qm3ce0a4y9uzdpqcavdr0") | .amount] | add'
 printf "\n"
